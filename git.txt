@@ -1,9 +1,17 @@
 git init 初始化，让git开始管理
 git status 检测状态（红色：新增文件》》git add‘文件名’，绿色：已经管理，无色：已经版了）
 git commint -m ‘描述信息’
-$ git config --global user.name "runoob"
-$ git config --global user.email test@runoob.com
+git config --global user.name "runoob"
+git config --global user.email test@runoob.com
 git branch 分支名（创建分支）
 git checkout 分支名（切换分支）
 git merge 合并（先切换到要用的分支）
 git branch -d 分支名（删除分支）
+git remote add origin 远程地址（创建仓库连接）
+git branch -M main
+git push -u origin main（推送代码）
+git clone 网址（下载代码）
+git push -u origin main
+git pull origin dev（更新代码）
+git remote -v 查看远程库的信息
+git remote rm origin （删除关联的仓库）
