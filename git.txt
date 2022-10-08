@@ -1,0 +1,5 @@
+git init 初始化，让git开始管理
+git status 检测状态（红色：新增文件》》git add‘文件名’，绿色：已经管理，无色：已经版了）
+git commint -m ‘描述信息’
+$ git config --global user.name "runoob"
+$ git config --global user.email test@runoob.com
