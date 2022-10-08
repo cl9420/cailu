@@ -3,3 +3,7 @@ git status 检测状态（红色：新增文件》》git add‘文件名’，�
 git commint -m ‘描述信息’
 $ git config --global user.name "runoob"
 $ git config --global user.email test@runoob.com
+git branch 分支名（创建分支）
+git checkout 分支名（切换分支）
+git merge 合并（先切换到要用的分支）
+git branch -d 分支名（删除分支）
