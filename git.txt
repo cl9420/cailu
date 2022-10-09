@@ -1,17 +1,25 @@
+https://github.com/cl9420/cailu.git
 git init 初始化，让git开始管理
 git status 检测状态（红色：新增文件》》git add‘文件名’，绿色：已经管理，无色：已经版了）
-git commint -m ‘描述信息’
-git config --global user.name "runoob"
-git config --global user.email test@runoob.com
+git reflog 所有历史版本
+git commint -m ‘描述信息’（创建版本）
+git config --global user.name "runoob"（用户名）
+git config --global user.email test@runoob.com（用户信息）
+git reset --hard 分支名（回滚）
 git branch 分支名（创建分支）
 git checkout 分支名（切换分支）
 git merge 合并（先切换到要用的分支）
 git branch -d 分支名（删除分支）
 git remote add origin 远程地址（创建仓库连接）
-git branch -M main
+git branch -M main（新版GitHub必须使用main进，而不是master）
 git push -u origin main（推送代码）
 git clone 网址（下载代码）
 git push -u origin main
 git pull origin dev（更新代码）
 git remote -v 查看远程库的信息
 git remote rm origin （删除关联的仓库）
+git rebase -i HEAD-3   改编成s  ：wq保存（使得提交记录简洁，合并时不要合并已经提交到仓库的代码）
+git  pull origin dev 变成git fetch-》git rebase不会产生分支
+git tag -a v1 -m “第一版”
+git checkout -b dev（创建并切换到dev）
+
